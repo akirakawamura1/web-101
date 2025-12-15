@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>（ここにサイトのタイトルを入れます）</title>
 
     <!-- SEO対策系で必要なもの -->
     <!-- metaタグ系 -->
@@ -19,16 +19,65 @@
 
 <body>
 
-    <header>
+    <header class="header">
 
+        <div class="header__inner">
+
+            <h1 class="site-logo">
+                <a href="" class="site-logo__link">
+                    <img src="assets/image/logo.svg" alt="ロゴ画像" class="site-logo__img">
+                </a>
+            </h1>
+
+            <nav class="global-nav">
+
+                <ul class="global-nav__list">
+                    <li class="global-nav__item">
+                        <a href="" class="global-nav__link">選ばれる3つの理由</a>
+                    </li>
+                    <li class="global-nav__item">
+                        <a href="" class="global-nav__link">コース・目的</a>
+                    </li>
+                    <li class="global-nav__item">
+                        <a href="" class="global-nav__link">費用</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#" class="header__cta-btn">入学説明会に申し込む</a>
+
+            <!--ハンバーガーメニュー-->
+            <button id="js-hamburger" class="hamburger-btn js-hamburger">
+                <img src="assets/image/bars-solid.svg" alt="ハンバーガーメニュー" class="hamburger-btn__icon">
+            </button>
+
+            <!--ドロワーメニュー-->
+            <nav id="js-drawer-nav" class="drawer-nav js-drawer-nav" aria-label="ドロワーメニュー">
+                <ul class="drawer-nav__list">
+                    <li class="drawer-nav__item">
+                        <a href="" class="drawer-nav__link">選ばれる3つの理由</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="" class="drawer-nav__link">コース・目的</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="" class="drawer-nav__link">費用</a>
+                    </li>
+                    <li class="drawer-nav__item">
+                        <a href="#" class="drawer-nav__contact-button">入学説明会に申し込む</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
     </header>
 
     <main>
-
+        <!-- ここに主要なコンテンツが入ります -->
     </main>
 
     <footer>
-
+        <!-- ここにフッターが入ります -->
     </footer>
 
     <!-- JS系 -->
