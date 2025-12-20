@@ -1,0 +1,1 @@
+2025-12-21: Organized project folder structure (プロジェクトのフォルダ構成を整理しました).
