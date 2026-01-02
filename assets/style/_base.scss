@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+------------------------------------------ */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.75;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+/* レスポンシブなフォントサイズの設定
+------------------------------------------ */
+
+html {
+    font-size: calc(10 * 100vw / 375);
+    /* SP表示:横幅375px未満 */
+}
+
+@media (min-width:768px) {
+    html {
+        font-size: calc(10 * 100vw / 1200);
+        /* PC表示:横幅768px以上 */
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%
+        /* 画面の横幅が1200px以上の場合 */
+    }
+}
