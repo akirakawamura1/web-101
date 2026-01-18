@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/memo*": true,
+        "**/readme*": true,
+        "**/README*": true
+    }
+}
